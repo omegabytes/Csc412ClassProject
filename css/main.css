@@ -83,6 +83,16 @@ nav a {
   padding: 15px 10px;
 }
 
+.button {
+  text-align: center;
+  font-weight: bold; 
+  font-size: 18px;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  display: inline-block;
+/*  background-color: #0D192B;*/
+}
+
 
 /***********************
 FOOTER
@@ -116,7 +126,8 @@ PAGE: PORTFOLIO
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #f5f5f5;
+  background-color: transparent;
+    /*opacity: 0.4;*/
   color: #bdc3c7;
 }
 
@@ -136,7 +147,7 @@ PAGE: PORTFOLIO
 
 /*For courseware, to be removed*/
 #gallery button {
-    float: left;  
+    float: left;
 }
 
 
@@ -192,19 +203,24 @@ COLORS
 
 /* site body */
 body {
-  background-color: #fff;
-  color: #999;
+  background-color: #000;
+  /*background-image: url("../img/PlutoNorgayHillaryMountains.jpg");*/
+  background-position: 100%;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #bdc3c7;
 }
 
 /* green header */
 header {
-  background: #005555;
-  border-color: #004444;
+  background: #0D192B;
+  border-color: #32343C;
 }
 
 /* nav background on mobile */
 nav {
-  background: #004444;
+  background: #32343C;
 }
 
 /* logo text */
@@ -214,7 +230,7 @@ h1,h2 {
 
 /* links */
 a {
-  color: #007777;
+  color: #bdc3c7;
 }
 
 /* nav link */
@@ -226,4 +242,3 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover {
   color: #FFC107;
 }
-

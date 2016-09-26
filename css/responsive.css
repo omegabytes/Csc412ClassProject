@@ -1,5 +1,10 @@
 @media screen and (min-width: 480px) {
   
+    html, body {
+        margin: 0;
+        height: 100%;
+    }  
+    
 /***********************
 TWO COLUMN LAYOUT
 ************************/
@@ -71,7 +76,7 @@ PAGE: HEADER
   }
   
   header {
-    border-bottom: 8px solid #004444;
+    border-bottom: 8px solid #32343C;
     margin-bottom: 60px;
   }
 }
